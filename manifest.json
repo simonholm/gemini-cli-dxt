@@ -1,0 +1,31 @@
+{
+  "name": "gemini_cli",
+  "version": "0.1.0",
+  "description": "Gemini CLI wrapper for analyzing large codebases via Claude Desktop.",
+  "entry_point": "server.js",
+  "tools": [
+    {
+      "name": "gemini_run",
+      "description": "Run Gemini CLI with a -p prompt string.",
+      "input_type": "text",
+      "output_type": "text",
+      "examples": [
+        {
+          "input": "@src/ Summarize the architecture of this codebase",
+          "description": "Analyze project structure"
+        },
+        {
+          "input": "@src/ @lib/ Is Redis caching implemented? List functions.",
+          "description": "Check for caching logic"
+        },
+        {
+          "input": "@api/ @middleware/ Is rate limiting implemented in this API?",
+          "description": "Verify security implementation"
+        }
+      ]
+    }
+  ],
+  "environment": {
+    "shell": "/bin/bash"
+  }
+}
