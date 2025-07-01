@@ -1,0 +1,33 @@
+{
+  "dxt_version": "1.0",
+  "name": "gemini_cli",
+  "author": {
+    "name": "Simon Holm"
+  },
+  "version": "0.1.0",
+  "description": "Invoke gemini CLI from Claude via WSL/native shell",
+  "server": {
+    "entry_point": "server.js"
+  },
+  "tools": [
+    {
+      "name": "gemini_run",
+      "description": "Run gemini CLI with a prompt to analyze codebase",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "prompt": {
+            "type": "string",
+            "description": "Prompt string to pass to `gemini -p`"
+          }
+        },
+        "required": ["prompt"]
+      },
+      "output_schema": {
+        "type": "string",
+        "description": "Raw CLI output"
+      }
+    }
+  ]
+}
+
