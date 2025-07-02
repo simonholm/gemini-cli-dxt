@@ -231,7 +231,6 @@ This guide has helped developers build working DXT extensions for:
 - **Content generation** (documentation, reports, summaries)
 
 
-git push origin main*
 
 ---
 
