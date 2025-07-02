@@ -201,3 +201,42 @@ try {
 ```
 
 
+
+### 4. **Document Your Tools**
+Provide clear descriptions and examples for your tool schemas.
+
+### 5. **Version Your Extensions**
+Use semantic versioning and timestamped builds for easy tracking.
+
+## 🤝 Contributing
+
+Found issues or improvements? This guide is community-driven:
+
+1. **Open an issue** for bugs or missing information
+2. **Submit a PR** with improvements or new examples
+3. **Share your extensions** to help others learn
+
+## 📄 License
+
+This guide and example code are released under the MIT License.
+
+---
+
+## 🎉 Success Stories
+
+This guide has helped developers build working DXT extensions for:
+- **Code analysis tools** (like this Gemini CLI integration)
+- **API integrations** (REST APIs, GraphQL, databases)
+- **Development workflows** (testing, deployment, monitoring)
+- **Content generation** (documentation, reports, summaries)
+
+**Your extension could be nextwc -l README.md
+
+# Let's just commit what we have - it's probably already great
+git add README.md
+git commit -m Add comprehensive DXT development guide
+git push origin main*
+
+---
+
+*Built with ❤️ by the Claude Desktop Extension community*
