@@ -232,8 +232,6 @@ This guide has helped developers build working DXT extensions for:
 
 **Your extension could be nextwc -l README.md
 
-# Let's just commit what we have - it's probably already great
-git add README.md
 git commit -m Add comprehensive DXT development guide
 git push origin main*
 
