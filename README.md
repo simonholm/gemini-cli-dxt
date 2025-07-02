@@ -230,9 +230,7 @@ This guide has helped developers build working DXT extensions for:
 - **Development workflows** (testing, deployment, monitoring)
 - **Content generation** (documentation, reports, summaries)
 
-**Your extension could be nextwc -l README.md
 
-git commit -m Add comprehensive DXT development guide
 git push origin main*
 
 ---
